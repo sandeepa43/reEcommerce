@@ -1,13 +1,167 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  margin:0px;
+  
 }
+.box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+.material-icons{
+    font-size: 2.4em;
+    cursor: pointer;
+}
+.card{
+    width: 300px;
+}
+.card .card-image .card-title{
+    color: black;
+    font-weight: 400
+}
+.cart{
+    margin-top:40px;
+}
+.collection .collection-item{
+    display: flex;
+}
+.collection-item.avatar .title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ee6e73;
+    display: block;
+    margin-bottom: 20px;
+    
+}
+.collection .collection-item img{
+    width: 150px;
+    margin-right: 25px;
+}
+.item-desc{
+    align-self:center;
+}
+.nav-wrapper{
+  display:flex;
+  flex-direction: row;
+  list-style: none;
+}
+.nav-li{
+  margin-right:1.2em;
+list-style: none;
+}
+.navbar{
+  background-color:#F9F9F9;
+  padding:0.8em;
+  margin:0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:0 5% 0 5%;
+}
+.nav-img{
+  width:1.8em;
+  margin-top:-5px;
+}
+.container{
+  width:80%;
+  margin:1% 1% 10% 10%;
+}
+.product-heading{
+  margin-top:1.5em;
+  font-weight:bold;
+  font-size:2em;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+.box{
+  border:1px solid grey;
+display: inline-block;
+margin:0 0 1.2em 1.2em;
+  width:30%
+}
+.card-title{
+  color:black;
+  font-family: 'Montserrat Alternates', sans-serif;
+padding:0.6em;
+width:80%;
+border-bottom: 1px solid grey;
+}
+.card-content{
+  margin:1em;
+  padding-top:1em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9em;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.price{
+  color:#0654AE;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight:bolder;
+  font-size:1.5em;
+}
+.cartButton{
+  background-color: #0654AD;
+  border:none;
+color:white;
+font-weight:bold;
+padding-left:0.8em;
+padding-right:0.8em;
+border-radius: 10px;
+cursor:pointer;
+}
+.shopButton{
+  background-color: #0654AD;
+  border:none;
+color:white;
+font-weight:bold;
+padding:1em 1.8em 1em 1.8em;
+border-radius: 10px;
+cursor:pointer;
+}
+.footer-list{
+  list-style: none;
+  display:flex;
+  flex-direction: row;
+}
+.footer-list li{
+  margin-left: 1.2em;
+}
+footer{
+  flex-shrink: 0;
+  width:85%;
+  margin-left:8%;
+  border-top:1px solid black;
+  font-size: 0.8em;
+  font-family: 'Montserrat Alternates', sans-serif; 
+}
+.cart-wrapper{
+  display:flex;
+  flex-direction: row;
+  
+}
+.navbar-cart{
+  background-color:black;
+  color:white;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:0 10% 0 10%;
+}
+th{
+  background-color:#F1F1F1;
+  padding:0.5em;
+  font-family: 'Montserrat', sans-serif; 
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.success-text{
+  text-align: center;
+  font-weight: bold;
+  
+  font-family: 'Montserrat Alternates', sans-serif; 
+}
+.item-img{
+  display: flex;
+  flex-direction: row;
 }
